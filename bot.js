@@ -148,6 +148,7 @@ bot.onText(/\/menu/, (msg) => {
         ['/gnome', '/grubrescue'],
         ['/mirror'],
         ['/awesomelinux', '/arch']
+        ['/drivers' , '/kernel'] 
       ]
     })
   }
