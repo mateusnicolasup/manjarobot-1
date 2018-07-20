@@ -35,9 +35,7 @@ bot.onText(/\/gnome/, (msg) => {
 bot.onText(/\/politica/, (msg) => {
   bot.sendMessage(msg.chat.id, message.politica, { parse_mode: 'Markdown' })
 })
-bot.onText(/\/teste/, (msg) => {
-  bot.sendMessage(msg.chat.id, nick + message.teste, { parse_mode: 'Markdown' })
-})
+
 
 bot.onText(/\/grubrescue/, (msg) => {
   const userID = msg.from.id
