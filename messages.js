@@ -2,7 +2,7 @@ module.exports = {
   
   forumLink: 'http://www.manjaro-linux.com.br/forum/index.php',
   instalacaoLink: 'https://www.diolinux.com.br/2017/03/migrando-do-ubuntu-para-o-manjaro-linux-guia-completo.html',
-  gnomeAnswer: 'Ta sobrando RAM aí rapaz ? Caso contrário, teste uma das outras 11 versões do manjaro antes :)',
+  gnomeAnswer: 'Ta sobrando RAM aí rapaz ? Caso contrário, teste uma das outras 11 versões do manjaro antes ;)',
   grub: 'http://wiki.manjaro.org/index.php/Restore_the_GRUB_Bootloader',
   mirror: 'Digite:  \n ``` sudo pacman-mirrors -f 5 ``` \nEste comando irá encontrar os 05 melhores mirrors para download.',
   rules: 'REGRAS DO GRUPO \n1- Offtopics são permitidos e encorajados, porém todo assunto tem hora e momento certo. Respeite os outros membros em seus momentos de dúvidas e evite spams desnecessários. \n2- Apenas divulgar outros grupos relacionados a Linux \n3- Não praticar spam \n5- Não desrespeitar membros \n6- Proíbido linkar clickbaits \n7- Procure sempre agregar valor ao grupo \n8- Use gnome ... (SQN) \n9- Sim, não existe regra 4 :)',
