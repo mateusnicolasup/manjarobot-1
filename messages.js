@@ -19,11 +19,12 @@ module.exports = {
   enviaElogio: 'Elogio Enviado! :D',
   semElogio: ' ainda não possui elogios',
   contaElogio: 'Quantidade de elogios de ',
-  botComandos: '/regras -  Exibe as regras do grupo  \n   /espaco - Exibe guia de solução para o erro "Não há espaço no dispositivo" \n /instalacao - Exibe um guia para instalar o Manjaro \n /rank -  Exibe o rank do grupo \n /forum - Exibe link para o forum \n /kernel - Exibe um tutorial para fácil manuseio dos kernels\n /drivers - Exibe um tutorial para fácil manuseio dos drivers  \n /gnome - Piada interna \n /grubrescue - Exibe tutorial para recuperar o grub \n /mirror -  Exibe comando para selecionar os melhores mirrors \n /pamacoctopi - Exibe um tutorial de como utilizar o Pamac e o Octopi \n /pacman - Exibe um tutorial de como utilizar o pacman \n /awesomelinux - Exibe link que lista ótimos softwares para Linux \n /arch - Piada interna',
+  botComandos: '/regras -  Exibe as regras do grupo  \n /espaco - Exibe guia de solução para o erro "Não há espaço no dispositivo" \n /instalacao - Exibe um guia para instalar o Manjaro \n /rank -  Exibe o rank do grupo \n /forum - Exibe link para o forum \n /kernel - Exibe um tutorial para fácil manuseio dos kernels\n /drivers - Exibe um tutorial para fácil manuseio dos drivers  \n /grubrescue - Exibe tutorial para recuperar o grub \n /mirror -  Exibe comando para selecionar os melhores mirrors \n /pamacoctopi - Exibe um tutorial de como utilizar o Pamac e o Octopi \n /pacman - Exibe um tutorial de como utilizar o pacman \n /awesomelinux - Exibe link que lista ótimos softwares para Linux',
   erroElogio: 'Só é possível elogiar um usuário por vez e evite colocar texto junto ao comando de elogio.',
   botElogio: ' . Também amo você! ',
   kernel: 'https://sempreupdate.com.br/como-trocar-o-kernel-no-manjaro/',
   drivers: 'https://sempreupdate.com.br/como-instalar-drivers-de-video-no-manjaro/',
   pacman: 'https://sempreupdate.com.br/como-instalar-programas-pelo-terminal-no-manjaro-parte-1/',
-  pamacoctopi: 'https://sempreupdate.com.br/como-instalar-programas-facilmente-no-manjaro/'
+  pamacoctopi: 'https://sempreupdate.com.br/como-instalar-programas-facilmente-no-manjaro/',
+  politica: 'Sério que vocês tão falando de política num grupo de Linux?'
 }
