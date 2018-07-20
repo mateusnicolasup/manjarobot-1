@@ -59,17 +59,11 @@ bot.onText(/\/awesomelinux/, (msg) => {
   bot.sendMessage(msg.chat.id, message.aweLinks, { parse_mode: 'Markdown' }).catch((error) => { bot.sendMessage(msg.chat.id, 'Ei ' + msg.from.first_name + ', ' + message.before) })
 })
 
-bot.onText(/\/steam/, (msg) => {
-  bot.sendMessage(msg.chat.id, message.steam, { parse_mode: 'Markdown' })
-})
 
 bot.onText(/\/arch/, (msg) => {
   bot.sendPhoto(msg.chat.id, message.photoLink)
 })
 
-bot.onText(/\/form/, (msg) => {
-  bot.sendMessage(msg.chat.id, message.form, { parse_mode: 'Markdown' })
-})
 
 bot.onText(/\/espaco/, (msg) => {
   bot.sendMessage(msg.chat.id, message.espaco, { parse_mode: 'Markdown' })
