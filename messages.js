@@ -13,6 +13,7 @@ module.exports = {
   by: 'Até a próxima!',
   before: 'você precisa criar uma conversa privada comigo antes disso ;)',
   form: ' https://goo.gl/forms/ErIdRo993NXiXQmp2',
+  erico:'Socorro alguém chame o Erico!',
   espaco: 'https://manjariando.wordpress.com/2017/04/17/corrigir-erro-nao-ha-espaco-disponivel-no-dispositivo/',
   elogioGrupo: 'Elogios só podem ser enviados de dentro do grupo ;)',
   autoElogio: 'Elogiar a si mesmo?! :O',
