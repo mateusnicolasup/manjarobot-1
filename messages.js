@@ -26,6 +26,5 @@ module.exports = {
   drivers: 'https://sempreupdate.com.br/como-instalar-drivers-de-video-no-manjaro/',
   pacman: 'https://sempreupdate.com.br/como-instalar-programas-pelo-terminal-no-manjaro-parte-1/',
   pamacoctopi: 'https://sempreupdate.com.br/como-instalar-programas-facilmente-no-manjaro/',
-  politica: 'Sério que vocês tão falando de política num grupo de Linux?',
-  teste: 'É chato'
+  politica: 'Sério que vocês tão falando de política num grupo de Linux?'
 }
