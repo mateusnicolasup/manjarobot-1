@@ -91,48 +91,6 @@ bot.onText(/\/pamacoctopi/, (msg) => {
   bot.sendMessage(msg.chat.id, message.pamacoctopi, { parse_mode: 'Markdown' })
 })
 
-bot.onText(/\/rollingrelease/, (msg, match) => {
-  const urlTec = `https://manjaro.org/get-manjaro/`
-  const urlTec2 = `https://manjaro.org/community-editions/`
-
-  axios.get(urlTec).then((response) => {
-    const $ = cheerio.load(response.data)
-    const data = [
-      { name: 'RELEASES OFICIAIS' },
-      { name: '  ' }
-    ]
-    $('h2').slice(0, 3).each((i, elm) => {
-      data.push({
-        name: $(elm).text()
-      })
-    })
-    return data.map((el) => `${el.name}`)
-  }).then((data) => {
-    const userID = msg.from.id
-    bot.sendMessage(msg.chat.id, data.join('\n')).catch((error) => { bot.sendMessage(msg.chat.id, 'Ei ' + msg.from.first_name + ', ' + message.before) })
-  }).catch((error) => {
-    console.log(error)
-  })
-
-  axios.get(urlTec2).then((response) => {
-    const $ = cheerio.load(response.data)
-    const data = [
-      { name: 'RELEASES DA COMUNIDADE' },
-      { name: '  ' }
-    ]
-    $('.text > h2').each((i, elm) => {
-      data.push({
-        name: elm.children[0].data
-      })
-    })
-    return data.map((el) => `${el.name}`)
-  }).then((data) => {
-    const userID = msg.from.id
-    bot.sendMessage(msg.chat.id, data.join('\n')).catch((error) => { bot.sendMessage(msg.chat.id, 'Ei ' + msg.from.first_name + ', ' + message.before) })
-  }).catch((error) => {
-    console.log(error)
-  })
-})
 
 
 
