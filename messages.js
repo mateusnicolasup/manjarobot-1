@@ -9,7 +9,7 @@ module.exports = {
   aweLinks: 'https://github.com/luongvo209/Awesome-Linux-Software',
   steam: 'http://steamcommunity.com/groups/manjarobrasil',
   photoLink: 'https://i.redd.it/d4tarq65a94z.jpg',
-  welcome: '```Bem vindo ao Manjaro Brasil!!\nUse /help para conhecer os comandos do nosso bot.```',
+  welcome: ' seja bem vindo ao Manjaro Brasil!!\nUse /help para conhecer os comandos do nosso bot.',
   by: 'Até a próxima!',
   before: 'você precisa criar uma conversa privada comigo antes disso ;)',
   form: ' https://goo.gl/forms/ErIdRo993NXiXQmp2',
