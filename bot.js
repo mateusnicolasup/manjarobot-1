@@ -48,7 +48,7 @@ bot.onText(/\/regras/, (msg) => {
   bot.sendMessage(msg.chat.id, message.rules, { parse_mode: 'Markdown' }).catch((error) => { bot.sendMessage(msg.chat.id, 'Ei ' + msg.from.first_name + ', ' + message.before) })
 })
 
-bot.onText(/\/botcomandos/, (msg) => {
+bot.onText(/\/help/, (msg) => {
   const userID = msg.from.id
   bot.sendMessage(msg.chat.id, message.botComandos, { parse_mode: 'Markdown' }).catch((error) => { bot.sendMessage(msg.chat.id, 'Ei ' + msg.from.first_name + ', ' + message.before) })
 })
