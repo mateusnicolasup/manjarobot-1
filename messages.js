@@ -1,5 +1,5 @@
 module.exports = {
-  details: '-- Admins do Grupo -- \n@alissonsuassuna \n@mattnicols \n\nUse /menu e tenha acesso a posts e informações importantes!!  \n\n -- Créditos-- \nArte do Bot: @zEveery \nBot Desenvolvido por: @matheusrossi e @phelipewesley',
+  
   forumLink: 'http://www.manjaro-linux.com.br/forum/index.php',
   instalacaoLink: 'https://www.diolinux.com.br/2017/03/migrando-do-ubuntu-para-o-manjaro-linux-guia-completo.html',
   gnomeAnswer: 'Ta sobrando RAM aí rapaz ? Caso contrário, teste uma das outras 11 versões do manjaro antes :)',
