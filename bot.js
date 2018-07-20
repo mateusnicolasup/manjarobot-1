@@ -76,6 +76,9 @@ bot.onText(/\/espaco/, (msg) => {
 bot.onText(/\/kernel/, (msg) => {
   bot.sendMessage(msg.chat.id, message.kernel, { parse_mode: 'Markdown' })
 })
+bot.onText(/\/lowspecgames/, (msg) => {
+  bot.sendMessage(msg.chat.id, message.recomendJogos, { parse_mode: 'Markdown' })
+})
 
 bot.onText(/\/drivers/, (msg) => {
   bot.sendMessage(msg.chat.id, message.drivers, { parse_mode: 'Markdown' })
