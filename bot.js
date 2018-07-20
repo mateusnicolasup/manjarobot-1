@@ -35,6 +35,9 @@ bot.onText(/\/gnome/, (msg) => {
 bot.onText(/\/politica/, (msg) => {
   bot.sendMessage(msg.chat.id, message.politica, { parse_mode: 'Markdown' })
 })
+bot.onText(/\/teste/, (msg) => {
+  bot.sendMessage(msg.chat.id, nick + message.teste, { parse_mode: 'Markdown' })
+})
 
 bot.onText(/\/grubrescue/, (msg) => {
   const userID = msg.from.id
@@ -158,7 +161,7 @@ function commend(nick) {
   })
 }
 
-// conta a quantidade de elogios de um usuário
+// E a quantidade de elogios de um usuário
 function countCommends(nick, chatID) {
   MongoClient.connect(settings.database, function (err, client) {
     assert.equal(null, err);
