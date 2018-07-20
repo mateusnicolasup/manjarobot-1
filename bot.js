@@ -18,10 +18,7 @@ bot.on('left_chat_participant', (msg) => {
   bot.sendMessage(msg.chat.id, 'Adeus ' + msg.from.first_name + ',' + message.by)
 })
 
-bot.onText(/\/help/, (msg) => {
-  const userID = msg.from.id
-  bot.sendMessage(msg.chat.id, message.details, { parse_mode: 'Markdown' }).catch((error) => { bot.sendMessage(msg.chat.id, 'Ei ' + msg.from.first_name + ', ' + message.before) })
-})
+
 
 bot.onText(/\/forum/, (msg) => {
   bot.sendMessage(msg.chat.id, message.forumLink, { parse_mode: 'Markdown' }).catch((error) => { bot.sendMessage(msg.chat.id, 'Ei ' + msg.from.first_name + ', ' + message.before) })
