@@ -134,27 +134,7 @@ bot.onText(/\/rollingrelease/, (msg, match) => {
   })
 })
 
-bot.onText(/\/menu/, (msg) => {
-  const opts = {
-    reply_markup: JSON.stringify({
-      resize_keyboard: true,
-      selective: true,
-      one_time_keyboard: true,
-      keyboard: [
-        ['/regras', '/help', '/steam'],
-        ['/instalacao', '/rollingrelease'],
-        ['/rank', '/espaco'],
-        ['/forum'],
-        ['/gnome', '/grubrescue'],
-        ['/mirror'],
-        ['/awesomelinux', '/arch']
-        ['/drivers' , '/kernel'] 
-      ]
-    })
-  }
-  const userID = msg.from.id
-  bot.sendMessage(userID, 'Escolha uma Opção', opts).catch((error) => { bot.sendMessage(msg.chat.id, 'Ei ' + msg.from.first_name + ', ' + message.before) })
-})
+
 
 // Parte relacionada aos elogios
 bot.onText(/\/elogiar (.+)/, (msg, match) => {
