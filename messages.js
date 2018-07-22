@@ -1,6 +1,7 @@
 module.exports = {
   
   forumLink: 'http://www.manjaro-linux.com.br/forum/index.php',
+  kdeAnswer: 'Mais bonito que o Mac OS X. Tem mais fanboys que a Apple.',
   instalacaoLink: 'https://www.diolinux.com.br/2017/03/migrando-do-ubuntu-para-o-manjaro-linux-guia-completo.html',
   gnomeAnswer: 'Gnome consome muita RAM, que tal experimentar o XFCE? ;)',
   grub: 'http://wiki.manjaro.org/index.php/Restore_the_GRUB_Bootloader',
