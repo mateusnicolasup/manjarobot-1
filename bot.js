@@ -35,6 +35,9 @@ bot.onText(/\/gnome/, (msg) => {
 bot.onText(/\/kde/, (msg) => {
   bot.sendMessage(msg.chat.id, message.kdeAnswer, { parse_mode: 'Markdown' })
 })
+bot.onText(/\/xfce/, (msg) => {
+  bot.sendMessage(msg.chat.id, message.xfceAnswer, { parse_mode: 'Markdown' })
+})
 bot.onText(/\/socorro/, (msg) => {
   bot.sendMessage(msg.chat.id, message.erico, { parse_mode: 'Markdown' })
 })
