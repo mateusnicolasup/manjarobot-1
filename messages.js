@@ -4,7 +4,7 @@ module.exports = {
   kdeAnswer: 'Mais bonito que o Mac OS X. Tem mais fanboys que a Apple.',
   xfceAnswer: 'Leve e estável. O ademir paga pau.',
   desktopfriday: 'Toda sexta feira é dia de compartilhar o seu Desktop com o grupo! Mostre-nos seu Desktop com a hashtag #DeskTOPFriday!',
-  instalacaoLink: 'https://www.diolinux.com.br/2017/03/migrando-do-ubuntu-para-o-manjaro-linux-guia-completo.html',
+  instalacaoLink: 'https://sempreupdate.com.br/instalar-o-manjaro-no-modo-uefi/',
   gnomeAnswer: 'Gnome consome muita RAM, que tal experimentar o XFCE? ;)',
   grub: 'http://wiki.manjaro.org/index.php/Restore_the_GRUB_Bootloader',
   mirror: 'Digite:  \n ``` sudo pacman-mirrors -f 5 ``` \nEste comando irá encontrar os 05 melhores mirrors para download.',
