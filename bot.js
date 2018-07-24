@@ -59,10 +59,7 @@ bot.onText(/\/mirror/, (msg) => {
   bot.sendMessage(msg.chat.id, message.mirror, { parse_mode: 'Markdown' }).catch((error) => { bot.sendMessage(msg.chat.id, 'Ei ' + msg.from.first_name + ', ' + message.before) })
 })
 
-bot.onText(/\/regras/, (msg) => {
-  const userID = msg.from.id
-  bot.sendMessage(msg.chat.id, message.rules, { parse_mode: 'Markdown' }).catch((error) => { bot.sendMessage(msg.chat.id, 'Ei ' + msg.from.first_name + ', ' + message.before) })
-})
+
 
 bot.onText(/\/help/, (msg) => {
   const userID = msg.from.id
