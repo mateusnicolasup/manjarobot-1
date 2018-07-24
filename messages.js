@@ -8,7 +8,7 @@ module.exports = {
   gnomeAnswer: 'Gnome consome muita RAM, que tal experimentar o XFCE? ;)',
   grub: 'http://wiki.manjaro.org/index.php/Restore_the_GRUB_Bootloader',
   mirror: 'Digite:  \n ``` sudo pacman-mirrors -f 5 ``` \nEste comando irá encontrar os 05 melhores mirrors para download.',
-  rules: 'REGRAS DO GRUPO \n1- Offtopics são permitidos e encorajados, porém todo assunto tem hora e momento certo. \n2- Apenas divulgar outros grupos relacionados a Linux. \n3- Não praticar spam \n4- Proibido polêmicas envolvendo política. \n5- Não desrespeitar membros. \n6- Proíbido linkar clickbaits. \n7- Procure sempre agregar valor ao grupo. \n8-Evite mandar fotos do seu desktop a todo momento. Sexta feira é o dia reservado para exibir os desktops.',
+   
   aweLinks: 'https://github.com/luongvo209/Awesome-Linux-Software',
   steam: 'http://steamcommunity.com/groups/manjarobrasil',
   photoLink: 'https://i.redd.it/d4tarq65a94z.jpg',
