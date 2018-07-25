@@ -32,5 +32,5 @@ module.exports = {
   pamacoctopi: 'https://sempreupdate.com.br/como-instalar-programas-facilmente-no-manjaro/',
   politica: 'Sério que vocês tão falando de política num grupo de Linux?',
   recomendJogos: 'https://sempreupdate.com.br/5-jogos-da-steam-que-rodam-em-linux/',
-  rules: 'REGRAS DO GRUPO 1- Offtopics são permitidos e encorajados, porém todo assunto tem hora e momento certo.\n2- Apenas divulgar outros grupos relacionados a Linux.\n3- Não praticar spam.\n4- Proibido polêmicas envolvendo política.\n5- Não desrespeitar membros.\n6- Proíbido linkar clickbaits.\n7- Procure sempre agregar valor ao grupo.\n8-Evite mandar fotos do seu desktop a todo momento. Sexta feira é o dia reservado para exibir os desktops.'
+  rules: 'REGRAS DO GRUPO\n1- Offtopics são permitidos e encorajados, porém todo assunto tem hora e momento certo.\n2- Apenas divulgar outros grupos relacionados a Linux.\n3- Não praticar spam.\n4- Proibido polêmicas envolvendo política.\n5- Não desrespeitar membros.\n6- Proíbido linkar clickbaits.\n7- Procure sempre agregar valor ao grupo.\n8-Evite mandar fotos do seu desktop a todo momento. Sexta feira é o dia reservado para exibir os desktops.'
 }
