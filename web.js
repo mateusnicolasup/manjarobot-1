@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
 })
 
 setInterval(function() {
-  http.get("http://manjarobot.herokuapp.com/")
+  http.get("http://manjarinhotopbot.herokuapp.com/")
   console.log("mandei mensagem")
 }, 250000)
 
