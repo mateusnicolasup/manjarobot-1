@@ -8,7 +8,7 @@ module.exports = {
   gnomeAnswer: 'Gnome consome muita RAM, que tal experimentar o XFCE? ;)',
   grub: 'http://wiki.manjaro.org/index.php/Restore_the_GRUB_Bootloader',
   mirror: 'Digite:  \n ``` sudo pacman-mirrors -f 5 ``` \nEste comando irá encontrar os 05 melhores mirrors para download.',
-   
+  wps: 'https://www.cucadigital.com.br/2018/07/como-instalar-o-wps-office-no-manjaro.html',
   aweLinks: 'https://github.com/luongvo209/Awesome-Linux-Software',
   steam: 'http://steamcommunity.com/groups/manjarobrasil',
   photoLink: 'https://i.redd.it/d4tarq65a94z.jpg',
