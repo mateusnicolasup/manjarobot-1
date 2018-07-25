@@ -32,6 +32,9 @@ bot.onText(/\/instalacao/, (msg) => {
 bot.onText(/\/gnome/, (msg) => {
   bot.sendMessage(msg.chat.id, message.gnomeAnswer, { parse_mode: 'Markdown' })
 })
+bot.onText(/\/wpsoffice/, (msg) => {
+  bot.sendMessage(msg.chat.id, message.wps, { parse_mode: 'Markdown' })
+})
 bot.onText(/\/desktopfriday/, (msg) => {
   bot.sendMessage(msg.chat.id, message.desktopfriday, { parse_mode: 'Markdown' })
 })
