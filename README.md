@@ -1,3 +1,2 @@
 # manjarobot-1 
-?3
-lkok
+Revive bot
