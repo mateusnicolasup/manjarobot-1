@@ -32,6 +32,9 @@ bot.onText(/\/instalacao/, (msg) => {
 bot.onText(/\/gnome/, (msg) => {
   bot.sendMessage(msg.chat.id, message.gnomeAnswer, { parse_mode: 'Markdown' })
 })
+bot.onText(/\/rigmork/, (msg) => {
+  bot.sendMessage(msg.chat.id, message.rigmork, { parse_mode: 'Markdown' })
+})
 bot.onText(/\/rules/, (msg) => {
   bot.sendMessage(msg.chat.id, message.rules, { parse_mode: 'Markdown' })
 })
