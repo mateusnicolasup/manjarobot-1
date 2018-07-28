@@ -1,8 +1,8 @@
 module.exports = {
   
   forumLink: 'http://www.manjaro-linux.com.br/forum/index.php',
-  kdeAnswer: 'Mais bonito que o Mac OS X. Tem mais fanboys que a Apple.',
-  xfceAnswer: 'Leve e estável. O ademir paga pau.',
+  kdeAnswer: 'Mais bonito que o Mac OS X. Sim, tem um blur top.',
+  xfceAnswer: 'Leve e estável. Perfeito pra quem busca simplicidade',
   desktopfriday: 'Toda sexta feira é dia de compartilhar o seu Desktop com o grupo! Mostre-nos seu Desktop com a hashtag #DeskTOPFriday!',
   instalacaoLink: 'https://sempreupdate.com.br/instalar-o-manjaro-no-modo-uefi/',
   gnomeAnswer: 'Gnome consome muita RAM, que tal experimentar o XFCE? ;)',
